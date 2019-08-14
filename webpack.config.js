@@ -48,7 +48,6 @@ module.exports = (env) => {
                 }
             ]
         },
-        plugins: plugins,
         
         devServer: {
             proxy: {
@@ -57,7 +56,9 @@ module.exports = (env) => {
                     ws: true
                 }
             }
-          }
+          },
+
+          plugins: plugins
 
     }
 }
