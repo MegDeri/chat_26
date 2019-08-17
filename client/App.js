@@ -6,7 +6,7 @@ import styles from './App.css';
 
 import MessageForm from './MessageForm';
 import MessageList from './MessageList';
-import UsersList from './UsersList';
+import UsersList from './UserList';
 import UserForm from './UserForm';
 
 const socket = io('/');
