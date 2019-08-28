@@ -15,7 +15,7 @@ const MessageList = props => (
         props.messages.map((message, value) => {
           return (
             <Message
-              key={value}
+              key={'message' + value}
               from={message.from}
               text={message.text}
             />
