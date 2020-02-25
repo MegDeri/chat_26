@@ -11,7 +11,8 @@ The user can not only write a new message, but also edit or delete it (all chang
 - Webpack
 
 ## Init project:
-- clone repository  and connect to your local repo;
-- use command `npm start` to start App
-- use different browsers to type and send messages on chat
+- clone repository  and connect to your local repo,
+- use command `node index.js` to start server,
+- in another command prompt use `npm start` to start App, works on port: localhost:8080,
+- use different browsers to type and send messages on chat.
  
